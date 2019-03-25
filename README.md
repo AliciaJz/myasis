@@ -67,3 +67,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # myasis
+
+
+http://myasis-20190324215813-hostingbucket-asisenv.s3-website-us-east-1.amazonaws.com

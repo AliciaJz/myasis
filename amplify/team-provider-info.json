@@ -1,0 +1,14 @@
+{
+    "asisenv": {
+        "awscloudformation": {
+            "AuthRoleName": "myasis-20190324215148-authRole",
+            "UnauthRoleArn": "arn:aws:iam::404795435238:role/myasis-20190324215148-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::404795435238:role/myasis-20190324215148-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "myasis-20190324215148-deployment",
+            "UnauthRoleName": "myasis-20190324215148-unauthRole",
+            "StackName": "myasis-20190324215148",
+            "StackId": "arn:aws:cloudformation:us-east-1:404795435238:stack/myasis-20190324215148/5159d350-4eb1-11e9-8e7b-0e243b4b1cce"
+        }
+    }
+}
