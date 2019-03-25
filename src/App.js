@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import logo from './simbolo_LBP.jpg';
 import './App.css';
 
-import Amplify from 'aws-amplify';
+// import Amplify from 'aws-amplify';
 import awsmobile from './aws-exports';
+
+import Amplify from '@aws-amplify/core';
+// import Auth from '@aws-amplify/auth';
+import aws_exports from './aws-exports';
+
 // import { withAuthenticator } from 'aws-amplify-react';
 
 import { API, graphqlOperation } from 'aws-amplify';
@@ -36,7 +41,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            ZILA
+            6to Congreso
           </p>
         </header>
       </div>
