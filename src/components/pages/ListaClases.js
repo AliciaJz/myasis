@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+
+import Clases from '../Clases';
 
 function ListaClases() {
   return (
     <React.Fragment>
-      <h4>Clases</h4>
-      <p>Ve todas las clases</p>
+      <Clases />
     </React.Fragment>
   )
 }

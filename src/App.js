@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
-import logo from './simbolo_LBP.jpg';
 import './App.css';
 
 // import Amplify from 'aws-amplify';
@@ -9,16 +8,19 @@ import awsmobile from './aws-exports';
 
 import Amplify from '@aws-amplify/core';
 // import Auth from '@aws-amplify/auth';
-import aws_exports from './aws-exports';
+// import aws_exports from './aws-exports';
 
 // import { withAuthenticator } from 'aws-amplify-react';
 
-import { API, graphqlOperation } from 'aws-amplify';
+// import { API, graphqlOperation } from 'aws-amplify';
 
-import Clases from './components/Clases'
-import Asistentes from './components/Asistentes'
+import Asistentes from './components/Asistentes';
+import ListaClases from './components/pages/ListaClases';
+import ListaAsistentes from './components/pages/ListaAsistentes';
 
-Amplify.configure(awsmobile);
+
+Amplify.configure 
+(awsmobile);
 
 const listClases = `query listClases {
   listClases{
@@ -63,12 +65,10 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-          </header>
           <Header />
-          <Clases />
-          <Asistentes asistentes={this.state.asistentes}/>
+          <Route path="/" />
+          <Route path="/clases" component={ListaClases} />
+          <Route path="/asistentes" component={ListaAsistentes} />
         </div>
       </Router>
     );

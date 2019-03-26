@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import AsistenteItem from './AsistenteItem';
+// import AsistenteItem from './AsistenteItem';
 import PropTypes from 'prop-types';
 
 class Asistentes extends Component {
   render() {
-    console.log(this.props.asistentes);
-    return this.props.asistentes.map((asistente) => (
-      <AsistenteItem key={asistente.id} asistente={asistente} />
-    ));
+    return (
+      <div>
+        <h4>Gafete</h4>
+        <h5>Nombre en Certificado</h5>
+      </div>
+    )
   }
 }
 // PropTypes
