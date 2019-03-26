@@ -1,19 +1,21 @@
+* {
+  background-color: #fafafa;
+}
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 13vmin;
+  height: 8vmin;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #fafafa;
-  min-height: 100vh;
+  margin: 50px 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: rgb(31, 31, 31);
 }
